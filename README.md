@@ -1,6 +1,8 @@
 ## Getting Started
 
 Those who know 🤫
+Coming soon
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
