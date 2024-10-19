@@ -75,8 +75,8 @@ public class MainPart {
            } else if(grade.equals("E") || grade.equals("F")) {
                 return 0.0;    
            } else {
-        System.out.println("Welp! It looks like you didn't enter a valid letter grade; We'll assume your grade was a 0.0 then :( ");   
-        return 0.0; // if user doesn't input a letter A-F 
+                System.out.println("Welp! It looks like you didn't enter a valid letter grade; We'll assume your grade was a 0.0 then :( ");   
+                return 0.0; // if user doesn't input a letter A-F 
 
     }
         
