@@ -8,7 +8,7 @@ public class MainPart {
         String name = scanner.nextLine(); //Allows users to input their name on the following line
 
         System.out.println("Enter your MCPS ID Number (#):");
-        String idnum = scanner.nextLine(); //allows users to input their MCPS ID
+        String idNum = scanner.nextLine(); //allows users to input their MCPS ID
 
         System.out.println("Enter your age:"); //Asks users to input their age
         int age = scanner.nextInt(); //Declares age variable, allows users to input their age
@@ -53,7 +53,7 @@ public class MainPart {
 
 
         System.out.println("Montgomery County Public Schools - Student Progress Report");
-        System.out.println("MCPS ID # " + idnum);
+        System.out.println("MCPS ID # " + idNum);
         System.out.println("Student Name: " + name);
         System.out.println("Age: " + age + " years old");
         System.out.println("GPA: " + gpa);
