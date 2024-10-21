@@ -66,13 +66,13 @@ public class MainPart {
 
         if(grade.equals("A")) { //converts the letter grade into its respective number
             return 4.0;
-           } else if(grade.equals("B")) {
+           } else if(grade.equals("B") || grade.equals("b")) {
                return 3.0;
-           } else if(grade.equals("C")) {
+           } else if(grade.equals("C") || grade.equals("c")) {
                return 2.0;
-           } else if(grade.equals("D")) {
+           } else if(grade.equals("D") || grade.equals("d")) {
                 return 1.0;
-           } else if(grade.equals("E") || grade.equals("F")) {
+           } else if(grade.equals("E") || grade.equals("F") || grade.equals("e") || grade.equals("f")) {
                 return 0.0;    
            } else {
                 System.out.println("Welp! It looks like you didn't enter a valid letter grade; We'll assume your grade was a 0.0 then :( ");   
