@@ -18,3 +18,6 @@ public class JavaPractice {
 
                 }
     }
+
+
+    public stativ boolean isPrime()
